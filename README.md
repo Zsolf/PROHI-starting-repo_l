@@ -5,17 +5,10 @@
 The collaborator will edit the line below in GitHub -->
 **Collaborator**: Samriddhi
 
-_Note that this file is written in **MarkDown** language. A reference is available here: <https://www.markdownguide.org/basic-syntax/>_
-
-_Here you can include images, like the logo from SU_
-
-![Your dashboard](./assets/project-logo.jpg)
-
 ## Introduction
 
-_This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
+_This template project will contain a simple interactive web dashboard with Streamlit. The Dashboard contains 3 input elements, a data table and a data chart. The About page contains a summary of my data science project._
 
-## System description
 
 ### Installation of libraries
 
@@ -33,7 +26,7 @@ If you are using Mac, you may need to install Xcode. Check the official Streamli
 5. Check that the installation works running `streamlit hello`
 6. Stop the terminal by pressing **Ctrl+C**
 
-### Execute custom Dashboard
+### Execute Dashboard
 
 First, make sure that you are running Python from the environment. Check the steps 2 and 3 above. Then, to run the custom dashboard execute the following command:
 
@@ -43,16 +36,10 @@ First, make sure that you are running Python from the environment. Check the ste
 > python -m streamlit run Dashboard.py
 ```
 
-### Dependencies
 
-Tested on Python 3.12.7 with the following packages:
-  - Jupyter v1.1.1
-  - Streamlit v1.46.1
-  - Seaborn v0.13.2
-  - Plotly v6.2.0
-  - Scikit-Learn v1.7.0
-  - shap v0.48.0
+### Screenshots
 
-## Contributors
+_Here are the screenshots for how should the dashboard look like_
 
-_Add the project's authors, contact information, and links to websites or portfolios._
+![Dashboard](./assets/sh_1.png)
+![About](./assets/sh_2.png)
